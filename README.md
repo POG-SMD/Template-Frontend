@@ -350,7 +350,7 @@
   <td>Montagem do modal de cadastro de novo espaço</td>
   <td>Req.F. 9.1</td>
   <td>Front-end</td>
-  <td>Implementar a montagem do modal de novo espaço, para que o administrador possa criar um novo espaço com uma descrição, tipo de espaço e nome</td>
+  <td>Implementar a montagem do modal de novo espaço, para que o administrador possa criar um novo espaço com uma descrição, tipo de espaço e nome.</td>
   <td align=center>❌</td>
 </tr>
 <tr>
@@ -398,14 +398,14 @@
   <td>Montagem do modal de edição de espaço já existente</td>
   <td>Req.F. 10.1</td>
   <td>Front-end</td>
-  <td>Implementar a montagem do modal de edição de espaço já existente, para que o administrador possa editar um espaço já existente com uma descrição, tipo de espaço, nome, quantidade e imagem.</td>
+  <td>Implementar a montagem do modal de edição de espaço já existente, para que o administrador possa editar um espaço já existente com uma descrição, tipo de espaço e nome.</td>
   <td align=center>❌</td>
 </tr>
 <tr>
   <td>Integração do backend com o modal de edição de espaço já existente</td>
   <td>Req.F. 10.2</td>
   <td>Front-end</td>
-  <td>Implementar a integração do modal de espaço já existente, para que o administrador possa editar um espaço com uma descrição, tipo de espaço, nome, quantidade e imagem de forma 100% funcional.</td>
+  <td>Implementar a integração do modal de espaço já existente, para que o administrador possa editar um espaço com uma descrição, tipo de espaço e nome de forma 100% funcional.</td>
   <td align=center>❌</td>
 </tr>
 <tr>
@@ -439,14 +439,14 @@
   <td>Montagem do modal de visualização de espaço já existente</td>
   <td>Req.F. 11.1</td>
   <td>Front-end</td>
-  <td>Implementar a montagem do modal de visualização de espaço já existente, para que o usuário possa visualizar um espaço já existente com uma descrição, tipo de espaço, nome, quantidade e imagem.</td>
+  <td>Implementar a montagem do modal de visualização de espaço já existente, para que o usuário possa visualizar um espaço já existente com uma descrição, tipo de espaço e nome.</td>
   <td align=center>❌</td>
 </tr>
 <tr>
   <td>Integração do backend com o modal de visualização de espaço já existente</td>
   <td>Req.F. 11.2</td>
   <td>Front-end</td>
-  <td>Implementar a integração do modal de visualização de espaço já existente, para que o usuário possa visualizar um espaço com uma descrição, tipo de espaço, nome, quantidade e imagem de forma 100% funcional.</td>
+  <td>Implementar a integração do modal de visualização de espaço já existente, para que o usuário possa visualizar um espaço com uma descrição, tipo de espaço e nome de forma 100% funcional.</td>
   <td align=center>❌</td>
 </tr>
 <tr>
@@ -496,6 +496,134 @@
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
   <td align=center>❌</td>
+</tr>
+
+<tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 13 -> Cadastro de novos links</h2></th>
+</tr>
+
+<tr>
+  <td>Montagem do modal de cadastro de novo link</td>
+  <td>Req.F. 13.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de novo link, para que o administrador possa criar um novo link com uma descrição, nome, URL e tipo.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de cadastro de novo link</td>
+  <td>Req.F. 13.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de novo link, para que o administrador possa criar um novo link com uma descrição, nome, URL e tipo. de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Validação de formulário do modal de cadastro de novo link</td>
+  <td>Req.F. 13.3</td>
+  <td>Front-end</td>
+  <td>Validar o formulário com retornos visuais para o que deverá ser feito pelo administrador para cadastrar de forma correta um novo link.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Adicionar modelo de links no banco de dados</td>
+  <td>Req.NF. 13.1</td>
+  <td>Back-end</td>
+  <td>Adicionar modelo para o banco de dados para poder ser aplicado às chaves de links no backend.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para cadastro de novo link</td>
+  <td>Req.NF. 13.2</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para cadastro de novo link, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 13.3</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
+
+<tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 14 -> Edição de links já existentes</h2></th>
+</tr>
+
+<tr>
+  <td>Montagem do modal de edição de link já existente</td>
+  <td>Req.F. 14.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de edição de link já existente, para que o administrador possa editar um link já existente com uma descrição, nome, URL e tipo..</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de edição de link já existente</td>
+  <td>Req.F. 14.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de link já existente, para que o administrador possa editar um link com uma descrição, nome, URL e tipo. de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Validação de formulário do modal de edição de link já existente</td>
+  <td>Req.F. 14.3</td>
+  <td>Front-end</td>
+  <td>Validar o formulário com retornos visuais para o que deverá ser feito pelo administrador para editar de forma correta um link já existente.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para edição de link já existente</td>
+  <td>Req.NF. 14.1</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para edição de link já existente, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 14.2</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
+
+<tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 15 -> Visualização detalhada de link existente</h2></th>
+</tr>
+
+<tr>
+  <td>Montagem do modal de visualização de link já existente</td>
+  <td>Req.F. 15.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de visualização de link já existente, para que o usuário possa visualizar um link já existente com uma descrição, nome, URL e tipo..</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de visualização de link já existente</td>
+  <td>Req.F. 15.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de visualização de link já existente, para que o usuário possa visualizar um link com uma descrição, nome, URL e tipo. de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para visualização de link já existente</td>
+  <td>Req.NF. 15.1</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para visualização de link já existente, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 15.2</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
+
+<tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 16 -> Reserva de links existentes</h2></th>
 </tr>
 
 </table>
