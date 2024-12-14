@@ -150,5 +150,194 @@
     <td>Implementar uma validação de dados como e-mail e senha para login do usuário existente.</td>
     <td align=center>❌</td>
   </tr>
+
+  <tr></tr>
+  <tr>
+    <th colspan=5><h2>Requisito Macro 04 -> Cadastro de novos materiais</h2></th>
+  </tr>
   
+  <tr>
+    <td>Montagem do modal de cadastro de novo material</td>
+    <td>Req.F. 4.1</td>
+    <td>Front-end</td>
+    <td>Implementar a montagem do modal de novo material, para que o administrador possa criar um novo material com uma descrição, tipo de material, nome, quantidade e imagem.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Integração do backend com o modal de cadastro de novo material.</td>
+    <td>Req.F. 4.2</td>
+    <td>Front-end</td>
+    <td>Implementar a integração do modal de novo material, para que o administrador possa criar um novo material com uma descrição, tipo de material, nome, quantidade e imagem de forma 100% funcional.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Validação de formulário do modal de cadastro de novo material.</td>
+    <td>Req.F. 4.3</td>
+    <td>Front-end</td>
+    <td>Validar o formulário com retornos visuais para o que deverá ser feito pelo administrador para cadastrar de forma correta um novo material</td>
+    <td align=center>❌</td>
+  </tr><tr>
+    <td>Adicionar modelo de materiais no banco de dados.</td>
+    <td>Req.NF. 4.1</td>
+    <td>Back-end</td>
+    <td>Adicionar modelo para o banco de dados para poder ser aplicado as chaves de materiais no backend</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar endpoints para cadastro de novo material.</td>
+    <td>Req.NF. 4.2</td>
+    <td>Back-end</td>
+    <td>Implementar endpoints para cadastro de novo material, para assim permitir a funcionalidade do front-end</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar validação de chaves retornadas pelo frontend.</td>
+    <td>Req.NF. 4.3</td>
+    <td>Back-end</td>
+    <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
+    <td align=center>❌</td>
+  </tr>
+
+  <tr></tr>
+  <tr>
+    <th colspan=5><h2>Requisito Macro 05 -> Edição de materiais já existentes</h2></th>
+  </tr>
+  
+  <tr>
+    <td>Montagem do modal de edição de material já existente</td>
+    <td>Req.F. 5.1</td>
+    <td>Front-end</td>
+    <td>Implementar a montagem do modal de editar material já existente, para que o administrador possa editar um material já existente com uma descrição, tipo de material, nome, quantidade e imagem.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Integração do backend com o modal de edição de material já existente.</td>
+    <td>Req.F. 5.2</td>
+    <td>Front-end</td>
+    <td>Implementar a integração do modal de material já existente, para que o administrador possa editar um material com uma descrição, tipo de material, nome, quantidade e imagem de forma 100% funcional.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Validação de formulário do modal de edição de material já existente.</td>
+    <td>Req.F. 5.3</td>
+    <td>Front-end</td>
+    <td>Validar o formulário com retornos visuais para o que deverá ser feito pelo administrador para editar de forma correta um material já existente</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar endpoints para edição de material já existente.</td>
+    <td>Req.NF. 5.1</td>
+    <td>Back-end</td>
+    <td>Implementar endpoints para edição de material já existente, para assim permitir a funcionalidade do front-end</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar validação de chaves retornadas pelo frontend.</td>
+    <td>Req.NF. 5.2</td>
+    <td>Back-end</td>
+    <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
+    <td align=center>❌</td>
+  </tr>
+
+  <tr></tr>
+  <tr>
+    <th colspan=5><h2>Requisito Macro 06 -> Vizualização detalhada de material existente</h2></th>
+  </tr>
+  
+  <tr>
+    <td>Montagem do modal de vizualização de material já existente</td>
+    <td>Req.F. 6.1</td>
+    <td>Front-end</td>
+    <td>Implementar a montagem do modal de vizualização material já existente, para que o usuário possa vizualizar um material já existente com uma descrição, tipo de material, nome, quantidade e imagem.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Integração do backend com o modal de vizualização de material já existente.</td>
+    <td>Req.F. 6.2</td>
+    <td>Front-end</td>
+    <td>Implementar a integração do modal de vizualização de material já existente, para que o usuário possa vizualizar um material com uma descrição, tipo de material, nome, quantidade e imagem de forma 100% funcional.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar endpoints para vizualização de material já existente.</td>
+    <td>Req.NF. 6.1</td>
+    <td>Back-end</td>
+    <td>Implementar endpoints para vizualização de material já existente, para assim permitir a funcionalidade do front-end</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar validação de chaves retornadas pelo frontend.</td>
+    <td>Req.NF. 6.2</td>
+    <td>Back-end</td>
+    <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
+    <td align=center>❌</td>
+  </tr>
+
+  <tr></tr>
+  <tr>
+    <th colspan=5><h2>Requisito Macro 07 -> Vizualização de materiais existentes</h2></th>
+  </tr>
+  
+  <tr>
+    <td>Montagem da tela de vizualização de materiais existentes</td>
+    <td>Req.F. 7.1</td>
+    <td>Front-end</td>
+    <td>Implementar a montagem da tela de materiais existentes, para que o usuário possa vizualizar um material já existente com uma descrição, tipo de material, nome, quantidade e imagem.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Integração do backend com a tela de vizualização de material já existente.</td>
+    <td>Req.F. 7.2</td>
+    <td>Front-end</td>
+    <td>Implementar a integração da tela de vizualização de materiais existentes, para que o administrador possa vizualizar materiais existentes com uma descrição, tipo de material, nome, quantidade e imagem de forma 100% funcional.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar endpoints para vizualização de materiais existentes.</td>
+    <td>Req.NF. 7.1</td>
+    <td>Back-end</td>
+    <td>Implementar endpoints para vizualização de materiais existentes, para assim permitir a funcionalidade do front-end</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar validação de chaves retornadas pelo frontend.</td>
+    <td>Req.NF. 7.2</td>
+    <td>Back-end</td>
+    <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
+    <td align=center>❌</td>
+  </tr>
+  
+  <tr></tr>
+  <tr>
+    <th colspan=5><h2>Requisito Macro 08 -> Reserva de materiais existentes</h2></th>
+  </tr>
+  
+  <tr>
+    <td>Montagem do modal de reserva de materiais existentes</td>
+    <td>Req.F. 8.1</td>
+    <td>Front-end</td>
+    <td>Implementar a montagem do modal de reserva, para que o usuário possa reservar um material já existente.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Integração do backend com o modal de reserva de material já existente.</td>
+    <td>Req.F. 8.2</td>
+    <td>Front-end</td>
+    <td>Implementar a integração do modal de reserva de materiais existentes de forma 100% funcional.</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar endpoints para reserva de materiais existentes.</td>
+    <td>Req.NF. 8.1</td>
+    <td>Back-end</td>
+    <td>Implementar endpoints para vizualização de materiais existentes, para assim permitir a funcionalidade do front-end</td>
+    <td align=center>❌</td>
+  </tr>
+  <tr>
+    <td>Implementar validação de chaves retornadas pelo frontend.</td>
+    <td>Req.NF. 8.2</td>
+    <td>Back-end</td>
+    <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
+    <td align=center>❌</td>
+  </tr>
 </table>
