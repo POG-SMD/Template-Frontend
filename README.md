@@ -340,4 +340,162 @@
     <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
     <td align=center>❌</td>
   </tr>
+
+  <tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 09 -> Cadastro de novos espaços</h2></th>
+</tr>
+
+<tr>
+  <td>Montagem do modal de cadastro de novo espaço</td>
+  <td>Req.F. 9.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de novo espaço, para que o administrador possa criar um novo espaço com uma descrição, tipo de espaço e nome</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de cadastro de novo espaço</td>
+  <td>Req.F. 9.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de novo espaço, para que o administrador possa criar um novo espaço com uma descrição, tipo de espaço e nome de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Validação de formulário do modal de cadastro de novo espaço</td>
+  <td>Req.F. 9.3</td>
+  <td>Front-end</td>
+  <td>Validar o formulário com retornos visuais para o que deverá ser feito pelo administrador para cadastrar de forma correta um novo espaço.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Adicionar modelo de espaços no banco de dados</td>
+  <td>Req.NF. 9.1</td>
+  <td>Back-end</td>
+  <td>Adicionar modelo para o banco de dados para poder ser aplicado às chaves de espaços no backend.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para cadastro de novo espaço</td>
+  <td>Req.NF. 9.2</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para cadastro de novo espaço, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 9.3</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
+
+<tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 10 -> Edição de espaços já existentes</h2></th>
+</tr>
+
+<tr>
+  <td>Montagem do modal de edição de espaço já existente</td>
+  <td>Req.F. 10.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de edição de espaço já existente, para que o administrador possa editar um espaço já existente com uma descrição, tipo de espaço, nome, quantidade e imagem.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de edição de espaço já existente</td>
+  <td>Req.F. 10.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de espaço já existente, para que o administrador possa editar um espaço com uma descrição, tipo de espaço, nome, quantidade e imagem de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Validação de formulário do modal de edição de espaço já existente</td>
+  <td>Req.F. 10.3</td>
+  <td>Front-end</td>
+  <td>Validar o formulário com retornos visuais para o que deverá ser feito pelo administrador para editar de forma correta um espaço já existente.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para edição de espaço já existente</td>
+  <td>Req.NF. 10.1</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para edição de espaço já existente, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 10.2</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
+
+<tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 11 -> Visualização detalhada de espaço existente</h2></th>
+</tr>
+
+<tr>
+  <td>Montagem do modal de visualização de espaço já existente</td>
+  <td>Req.F. 11.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de visualização de espaço já existente, para que o usuário possa visualizar um espaço já existente com uma descrição, tipo de espaço, nome, quantidade e imagem.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de visualização de espaço já existente</td>
+  <td>Req.F. 11.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de visualização de espaço já existente, para que o usuário possa visualizar um espaço com uma descrição, tipo de espaço, nome, quantidade e imagem de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para visualização de espaço já existente</td>
+  <td>Req.NF. 11.1</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para visualização de espaço já existente, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 11.2</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
+
+<tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 12 -> Reserva de espaços existentes</h2></th>
+</tr>
+
+<tr>
+  <td>Montagem do modal de reserva de espaços existentes</td>
+  <td>Req.F. 12.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de reserva, para que o usuário possa reservar um espaço já existente.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de reserva de espaço já existente</td>
+  <td>Req.F. 12.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de reserva de espaços existentes de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para reserva de espaços existentes</td>
+  <td>Req.NF. 12.1</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para reserva de espaços existentes, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 12.2</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
+
 </table>
