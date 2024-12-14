@@ -623,7 +623,69 @@
 
 <tr></tr>
 <tr>
-  <th colspan=5><h2>Requisito Macro 16 -> Reserva de links existentes</h2></th>
+  <th colspan=5><h2>Requisito Macro 16 -> Vizualização de usuários já existentes</h2></th>
 </tr>
 
+<tr>
+  <td>Montagem do modal de visualização de usuário já existente</td>
+  <td>Req.F. 16.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de visualização de usuário já existente, para que o administrador possa visualizar um usuário já existente com um nome, email e imagem.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de visualização de usuário já existente</td>
+  <td>Req.F. 16.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de visualização de usuário já existente, para que o administrador possa visualizar um usuário com um nome, email e imagem de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para visualização de usuário já existente</td>
+  <td>Req.NF. 16.1</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para visualização de usuário já existente, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 16.2</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
+
+<tr></tr>
+<tr>
+  <th colspan=5><h2>Requisito Macro 17 -> Deleção de usuários já existentes</h2></th>
+</tr>
+
+<tr>
+  <td>Montagem do modal de deleção de usuário já existente</td>
+  <td>Req.F. 17.1</td>
+  <td>Front-end</td>
+  <td>Implementar a montagem do modal de deleção de usuário já existente, para que o administrador possa deletar um usuário já existente.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Integração do backend com o modal de deleção de usuário já existente</td>
+  <td>Req.F. 17.2</td>
+  <td>Front-end</td>
+  <td>Implementar a integração do modal de deleção de usuário já existente, para que o administrador possa deletar um usuário de forma 100% funcional.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar endpoints para deleção de usuário já existente</td>
+  <td>Req.NF. 17.1</td>
+  <td>Back-end</td>
+  <td>Implementar endpoints para deleção de usuário já existente, permitindo a funcionalidade do front-end.</td>
+  <td align=center>❌</td>
+</tr>
+<tr>
+  <td>Implementar validação de chaves retornadas pelo frontend</td>
+  <td>Req.NF. 17.2</td>
+  <td>Back-end</td>
+  <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
+  <td align=center>❌</td>
+</tr>
 </table>
