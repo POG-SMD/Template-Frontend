@@ -1,3 +1,129 @@
+# Template Frontend
+
+Este repositório é um template frontend configurado com React, TypeScript e várias ferramentas modernas para desenvolvimento web. Abaixo está uma explicação de cada dependência e instruções para instalação e uso.
+
+---
+
+## **Dependências**
+
+### **Principais:**
+
+- **@radix-ui/react-dialog, @radix-ui/react-popover, @radix-ui/react-select, @radix-ui/react-slot, @radix-ui/react-tooltip**  
+  Conjunto de componentes acessíveis e altamente configuráveis da biblioteca Radix UI para criação de elementos de interface como diálogos, popovers, selects e tooltips.
+
+- **autoprefixer**  
+  Adiciona automaticamente prefixos CSS para garantir compatibilidade entre navegadores.
+
+- **axios**  
+  Biblioteca para fazer requisições HTTP de forma simples e eficiente.
+
+- **class-variance-authority**  
+  Facilita a criação de classes CSS dinâmicas e variantes condicionais.
+
+- **clsx**  
+  Utilitário para manipulação de strings de classe CSS de forma dinâmica.
+
+- **cmdk**  
+  Utilitário para criar Command Menus altamente performáticos.
+
+- **postcss**  
+  Ferramenta para transformar CSS com plugins, como o TailwindCSS e o Autoprefixer.
+
+- **react, react-dom**  
+  Bibliotecas principais do React para construção de interfaces de usuário.
+
+- **react-router-dom**  
+  Gerenciador de rotas para aplicativos React.
+
+- **tailwind-merge**  
+  Mescla classes do TailwindCSS e resolve conflitos de forma eficiente.
+
+- **tailwindcss**  
+  Framework CSS utilitário para criar estilos rapidamente.
+
+---
+
+### **Dependências de Desenvolvimento:**
+
+- **@iconify/react**  
+  Biblioteca de ícones para React.
+
+- **@types/node, @types/react, @types/react-dom**  
+  Tipos para desenvolvimento TypeScript com Node.js, React e ReactDOM.
+
+- **@typescript-eslint/eslint-plugin, @typescript-eslint/parser**  
+  Ferramentas para linting e análise de código TypeScript.
+
+- **@vitejs/plugin-react**  
+  Plugin oficial do Vite para suporte ao React.
+
+- **eslint, eslint-plugin-react-hooks, eslint-plugin-react-refresh**  
+  Configurações para linting e boas práticas em projetos React.
+
+- **i18next, react-i18next**  
+  Ferramentas para internacionalização (i18n) de projetos React.
+
+- **typescript**  
+  Linguagem que adiciona tipagem estática ao JavaScript.
+
+- **vite**  
+  Ferramenta de build rápida e moderna para projetos web.
+
+---
+
+## **Instalação**
+
+### 1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/template-frontend.git
+   cd template-frontend
+   ```
+
+### 2. **Instale as depêndencias:**
+Certifique-se de ter o Node.js e npm ou Yarn instalados.
+   
+   Com npm:
+   ```bash
+   npm install
+   ```
+   
+   Com yarn:
+   ```bash
+   yarn install
+   ```
+
+### 4. **Build para produção:**
+ 
+   Com npm:
+   ```bash
+   npm run build
+   ```
+   
+   Com yarn:
+   ```bash
+   yarn build
+   ```
+
+### 5. **Pré-visualização do build:**
+ 
+   Com npm:
+   ```bash
+   npm run preview
+   ```
+   
+   Com yarn:
+   ```bash
+   yarn preview
+   ```
+
+---
+
+## **Estrutura do Projeto**
+- ```src/```: Código-fonte do projeto.
+- ```public/```: Arquivos estáticos.
+- ```vite.config.ts```: Configuração do Vite.
+
 <table>
   <tr><th colspan=5><h1>Requisitos Da Aplicação</h1></th></tr>
   <tr>
