@@ -143,14 +143,14 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.F. 1.1</td>
     <td>Front-end</td>
     <td>Desenvolver os componentes básicos e reutilizáveis que serão utilizados em diferentes partes da aplicação, garantindo consistência e funcionalidade.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Configurar rotas gerais do projeto</td>
     <td>Req.F. 1.2</td>
     <td>Front-end</td>
     <td>Implementar a estrutura de navegação da aplicação, assegurando que as páginas estejam interligadas corretamente.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Configurar traduções de formulário gerais do projeto</td>
