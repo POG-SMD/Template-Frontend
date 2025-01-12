@@ -226,7 +226,7 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.NF. 2.4</td>
     <td>Back-end</td>
     <td>Adicionar regras de validação para evitar cadastros inválidos e garantir a integridade dos dados recebidos.</td>
-    <td align=center✅</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Integrar novos usuários ao banco de dados.</td>
