@@ -1,19 +1,14 @@
-import { Button } from './components'
-import './index.css'
+import { RouterProvider } from "react-router-dom";
+import "./i18n";
+import { routes } from "./routes";
 
-export const App = () => {
-
+function App() {
   return (
-    <div className='w-full h-screen flex justify-center items-center'>
-      <Button
-        variant={'destructive'}
-        onClick={() => {
-          window.alert('Olá mundo!')
-        }}
-      >
-        Clique em mim!
-      </Button>
-    </div>
-  )
+    <>
+      <RouterProvider router={routes} />
+      {/* <Toaster /> */}
+    </>
+  );
 }
 
+export default App;
