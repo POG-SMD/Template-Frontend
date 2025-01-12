@@ -547,7 +547,7 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Back-end</td>
   <td>Implementar endpoints para edição de espaço já existente, permitindo a funcionalidade do front-end.</td>
   <td align=center>✅</td>
-  <td align=center></td>
+  
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
@@ -555,7 +555,7 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
   <td align=center>✅</td>
-  <td align=center></td>
+  
 </tr>
 
 <tr></tr>
@@ -583,7 +583,7 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Back-end</td>
   <td>Implementar endpoints para visualização de espaço já existente, permitindo a funcionalidade do front-end.</td>
   <td align=center>✅</td>
-  <td align=center></td>
+  
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
@@ -591,7 +591,7 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
   <td align=center>✅</td>
-  <td align=center></td>
+  
 </tr>
 
 <tr></tr>
