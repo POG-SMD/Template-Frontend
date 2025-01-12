@@ -498,7 +498,7 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 9.1</td>
   <td>Back-end</td>
   <td>Adicionar modelo para o banco de dados para poder ser aplicado às chaves de espaços no backend.</td>
-  <td align=center✅</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar endpoints para cadastro de novo espaço</td>
@@ -741,7 +741,7 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 15.1</td>
   <td>Back-end</td>
   <td>Implementar endpoints para visualização de link já existente, permitindo a funcionalidade do front-end.</td>
-  <td align=center✅</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
