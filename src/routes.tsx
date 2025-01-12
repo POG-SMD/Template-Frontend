@@ -8,11 +8,12 @@ const publicRoutes: RouteObject[] = [
     element: <LoginLayout />,
     children: [
       {
-        path: '/',
+        // trocar dps
+        path: '/a',
         element: <Login />,
       },
       {
-        path: 'register', 
+        path: '/', 
         element: <Login />,
       },
     ],
