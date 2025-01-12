@@ -362,7 +362,7 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.NF. 5.2</td>
     <td>Back-end</td>
     <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
-    <td align=center>✅/td>
+    <td align=center>✅</td>
   </tr>
 
   <tr></tr>
