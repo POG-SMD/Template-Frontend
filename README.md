@@ -205,49 +205,49 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.NF. 2.1</td>
     <td>Back-end</td>
     <td>Desenvolver os serviços necessários para receber, validar e processar os dados enviados pelo front-end.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Cadastrar e-mail e senha de novos usuários.</td>
     <td>Req.NF. 2.2</td>
     <td>Back-end</td>
     <td>Salvar os dados de cadastro no banco de dados após validação.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Criar modelo para usuários no banco de dados.</td>
     <td>Req.NF. 2.3</td>
     <td>Back-end</td>
     <td>Estruturar as tabelas e colunas no banco de dados para armazenar informações de usuário, incluindo hashing de senha para segurança.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Implementar validação de e-mail e senha no back-end.</td>
     <td>Req.NF. 2.4</td>
     <td>Back-end</td>
     <td>Adicionar regras de validação para evitar cadastros inválidos e garantir a integridade dos dados recebidos.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Integrar novos usuários ao banco de dados.</td>
     <td>Req.NF. 2.5</td>
     <td>Back-end</td>
     <td>Garantir que os dados validados sejam salvos corretamente no banco de dados.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Adicionar tratamento de erros no cadastro de usuários.</td>
     <td>Req.NF. 2.6</td>
     <td>Back-end</td>
     <td>Desenvolver mecanismos para lidar com erros, como falhas de conexão ou duplicidade de e-mail.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Implementar validação de e-mail e senha no back-end.</td>
     <td>Req.NF. 2.7</td>
     <td>Back-end</td>
     <td>Adicionar regras de validação para evitar cadastros inválidos e garantir a integridade dos dados recebidos.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   
   <tr></tr>
@@ -307,21 +307,21 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.NF. 4.1</td>
     <td>Back-end</td>
     <td>Adicionar modelo para o banco de dados para poder ser aplicado as chaves de materiais no backend</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Implementar endpoints para cadastro de novo material.</td>
     <td>Req.NF. 4.2</td>
     <td>Back-end</td>
     <td>Implementar endpoints para cadastro de novo material, para assim permitir a funcionalidade do front-end</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Implementar validação de chaves retornadas pelo frontend.</td>
     <td>Req.NF. 4.3</td>
     <td>Back-end</td>
     <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
 
   <tr></tr>
@@ -355,14 +355,14 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.NF. 5.1</td>
     <td>Back-end</td>
     <td>Implementar endpoints para edição de material já existente, para assim permitir a funcionalidade do front-end</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Implementar validação de chaves retornadas pelo frontend.</td>
     <td>Req.NF. 5.2</td>
     <td>Back-end</td>
     <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
 
   <tr></tr>
@@ -389,14 +389,14 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.NF. 6.1</td>
     <td>Back-end</td>
     <td>Implementar endpoints para vizualização de material já existente, para assim permitir a funcionalidade do front-end</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Implementar validação de chaves retornadas pelo frontend.</td>
     <td>Req.NF. 6.2</td>
     <td>Back-end</td>
     <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
 
   <tr></tr>
@@ -423,14 +423,14 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.NF. 7.1</td>
     <td>Back-end</td>
     <td>Implementar endpoints para vizualização de materiais existentes, para assim permitir a funcionalidade do front-end</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Implementar validação de chaves retornadas pelo frontend.</td>
     <td>Req.NF. 7.2</td>
     <td>Back-end</td>
     <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   
   <tr></tr>
@@ -457,14 +457,14 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
     <td>Req.NF. 8.1</td>
     <td>Back-end</td>
     <td>Implementar endpoints para vizualização de materiais existentes, para assim permitir a funcionalidade do front-end</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
   <tr>
     <td>Implementar validação de chaves retornadas pelo frontend.</td>
     <td>Req.NF. 8.2</td>
     <td>Back-end</td>
     <td>Implementar validação de chaves retronadas pelo frontend, para que caso o tipo seja diferente do que pedido pelo backend seja retornado um erro para o frontend.</td>
-    <td align=center>❌</td>
+    <td align=center>✅</td>
   </tr>
 
   <tr></tr>
@@ -498,21 +498,21 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 9.1</td>
   <td>Back-end</td>
   <td>Adicionar modelo para o banco de dados para poder ser aplicado às chaves de espaços no backend.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar endpoints para cadastro de novo espaço</td>
   <td>Req.NF. 9.2</td>
   <td>Back-end</td>
   <td>Implementar endpoints para cadastro de novo espaço, permitindo a funcionalidade do front-end.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
   <td>Req.NF. 9.3</td>
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 
 <tr></tr>
@@ -546,14 +546,16 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 10.1</td>
   <td>Back-end</td>
   <td>Implementar endpoints para edição de espaço já existente, permitindo a funcionalidade do front-end.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
+  
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
   <td>Req.NF. 10.2</td>
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
+  
 </tr>
 
 <tr></tr>
@@ -580,14 +582,16 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 11.1</td>
   <td>Back-end</td>
   <td>Implementar endpoints para visualização de espaço já existente, permitindo a funcionalidade do front-end.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
+  
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
   <td>Req.NF. 11.2</td>
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
+  
 </tr>
 
 <tr></tr>
@@ -655,21 +659,21 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 13.1</td>
   <td>Back-end</td>
   <td>Adicionar modelo para o banco de dados para poder ser aplicado às chaves de links no backend.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar endpoints para cadastro de novo link</td>
   <td>Req.NF. 13.2</td>
   <td>Back-end</td>
   <td>Implementar endpoints para cadastro de novo link, permitindo a funcionalidade do front-end.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
   <td>Req.NF. 13.3</td>
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 
 <tr></tr>
@@ -703,14 +707,14 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 14.1</td>
   <td>Back-end</td>
   <td>Implementar endpoints para edição de link já existente, permitindo a funcionalidade do front-end.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
   <td>Req.NF. 14.2</td>
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 
 <tr></tr>
@@ -737,14 +741,14 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 15.1</td>
   <td>Back-end</td>
   <td>Implementar endpoints para visualização de link já existente, permitindo a funcionalidade do front-end.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
   <td>Req.NF. 15.2</td>
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 
 <tr></tr>
@@ -771,14 +775,14 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 16.1</td>
   <td>Back-end</td>
   <td>Implementar endpoints para visualização de usuário já existente, permitindo a funcionalidade do front-end.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
   <td>Req.NF. 16.2</td>
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 
 <tr></tr>
@@ -805,13 +809,13 @@ Certifique-se de ter o Node.js e npm ou Yarn instalados.
   <td>Req.NF. 17.1</td>
   <td>Back-end</td>
   <td>Implementar endpoints para deleção de usuário já existente, permitindo a funcionalidade do front-end.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 <tr>
   <td>Implementar validação de chaves retornadas pelo frontend</td>
   <td>Req.NF. 17.2</td>
   <td>Back-end</td>
   <td>Implementar validação de chaves retornadas pelo frontend, para que, caso o tipo seja diferente do esperado pelo backend, seja retornado um erro.</td>
-  <td align=center>❌</td>
+  <td align=center>✅</td>
 </tr>
 </table>
